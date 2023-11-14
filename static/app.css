@@ -6,6 +6,10 @@ body {
 #content {
   margin: 40px;
 }
+
+h1 {
+  font-style: italic;
+}
 .navbar {
   background-color: black;
   overflow: hidden;

@@ -51,19 +51,9 @@ story1 = Story(
 story2 = Story(
     'No way!',
     'A story of Princes and Princesses',
-    ['place', 'noun', 'verb', 'adjective', 'adjective2', 'name', 'color',
-        'day_of_week', 'season', 'number', 'animal', 'number2', 'adjective3', 'adjective4', 'adjective5',
-        'adjective6', 'adjective7', 'adjective8', 'adjective9', 'adjective10', 'adjective11', 'adjective12', 'adjective13'],
-    """A long time ago, in a {adjective} galaxy, there lived {number} {adjective2} 
-        princes and a {number2} {adjective3} princesses. 
-        On {day_of_week}s in {season}, 
-        the {adjective4} princes would wear {color} clothes and go into the {adjective5}
-        forest to look for {adjective6} {animal}s that they called {name}. 
-        The {adjective7} princesses thought this was a {adjective8} idea, 
-        so the would stay in the {adjective9} castle. 
-        At the end of the {adjective10} day, 
-        the {adjective11} princes and the {adjective12} princesses
-        would meet at the {adjective13} {place} and {verb}."""
+    ['adjective', 'name', 'adjective2', 'animal', 'adjective3',
+        'name2', 'verb', 'adjective4', 'city', 'activity'],
+    """Once there was a {adjective} prince named {name}. He loved to hunt {adjective2} {animal}s. He had a {adjective3} sister named {name2}. Sometimes the two of them would {verb} through the {adjective4} forest. Sometimes they would travel to {city} and {activity}."""
 )
 
 stories = {s.code: s for s in [story1, story2]}
